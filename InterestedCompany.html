@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="pav.png">
+    <title>관심기업</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        body {
+            background: linear-gradient(40deg,#8FBC8F, #f9f3e7);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-attachment: fixed;
+            line-height: 1.5;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.75; 
+            margin: 0 0 20px 0; 
+        }
+        .c_n{
+            color: red;
+        }
+        #home_logo {
+            float: left;
+            margin-left: 60px;
+        }
+        .main_text {
+            font-size: 60px;
+            color:#678067;
+            text-align: center;
+            padding-top: 40px;
+            font-size: 35px;
+        }
+        .main {
+            padding: 40px;
+            background-color: rgba(255,255,255,0.7);
+            margin: 55px;
+            margin-top: 0px;
+            border-radius: 40px;
+            position: relative;
+            top: 45px;
+            border: black;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .board_1 {
+            margin-top: 30px;
+            margin-bottom: 150px;
+        }
+        .board_2 {
+            margin-bottom: 150px;
+        }
+        .board_3 {
+            margin-bottom: 150px;
+        }
+        .board_4 {
+            margin-bottom: 150px;
+        }
+       
+    </style>
+    
+</head>
+<body>
+    <script>
+        function load(URL){
+            window.open(URL, "window", "left = 500, top = 500, width = 1000, height = 1000");
+        }
+
+        function m_d(o){
+            o.style.fontStyle = "italic";
+        }
+    </script>
+    <section>
+        <h1 class="main_text">Interested Company</h1>
+        <a href="index.html">
+            <img src="left.png" id="home_logo" alt="홈 로고" width="30px">
+        </a>
+        <div class="main">
+            <div class="board_1">
+                <h1>최종 목표 기업</h1>
+                <br>
+                <canvas id="myCanvas" style="background-color: #678067;" width="500" height="252"></canvas>
+                <h2 class="c_n">넥슨 [퍼블리싱 라이브 본부]: 웹개발팀</h2><br>
+                
+                <a href = "javascript:load('https://career.nexon.com/user/recruit/member/postList?joinCorp=NX')">
+                    <span onmousedown="m_d(this)">넥슨 채용공고 바로가기<span>
+                </a>
+                
+                    
+                <h1>이 기업을 선택한 이유</h1>
+                <p>
+                    어렸을 때부터 넥슨이라는 기업을 많이 접할 수 있었습니다. 그러면서 점차 자연스럽게 입사하고 싶다는 생각이 들었습니다.<br>
+                    웹 업무가 주된 회사가 아닌 곳인 것을 알고 있지만, 이후 발전할 가능성이 무궁무진하다고 생각합니다.<br>
+                    만약 이 곳에서 일하게 된다면 저 자신또한 발전할 수 있을 거라 생각하여 이 기업을 목표 기업으로 정하게 되었습니다.
+                </p>
+            </div>
+
+            <div class="board_2">
+                <h1>지원자격</h1>
+                <p>
+                    - 웹표준, 웹접근성 전반에 대한 이해도를 갖고 계신 분<br>
+                    - Cross Browsing 환경 기반 HTML/CSS/Javascript 개발 역량을 보유하신 분<br>
+                    - CSS, Javascript, Html canvas 등을 활용한 애니메이션 구현이 가능하신 분<br>
+                    - 브라우저의 동작 원리에 대한 이해도를 보유하신 분<br>
+                    - http/https에 대한 기본적인 이해도를 보유하신 분<br>
+                    - 모바일 개발 환경에 대한 이해가 있으신 분<br>
+                    - 텍스트 에디터를 이용한 하드코딩이 가능하신 분<br>
+                    - Git 형상관리 시스템을 통합 협업 경험이 있으신 분<br>
+                    - JSON/XML 형태 데이터 취급 경험이 있으신 분<br>
+                    - React, Vue 등 웹 프레임워크를 활용한 개발 경험 또는 역량을 보유하신 분<br>
+                    - Node.js (Express, Nest 등), Typescript 개발 경험이 있으신 분<br>
+                </p>
+                <br>
+                <p>지원자격을 확인해보았을 때, <strong>HTML, CSS, JavaScript</strong>를 다루는 기본적인 능력과 개발 경험이 있는 개발자를 우대하고 있습니다.<br>
+                    넥슨은 <strong>React</strong>와 <strong>Vue</strong>와 같은 라이브러리 사용과 <strong>Node.js</strong> 등 서버 업무의 능력을 필요로 하고 있습니다.<br>
+                    또한, Git을 활용하여 형상관리 시스템을 통합한 협업 경험을 요구하므로 실무경험을하며 Git 사용에 익숙해져야합니다.<br>
+                    저는 목표한 기업에 지원하기 위해 <strong>중소기업</strong> 혹은 <strong>스타트업</strong>에 취업하여 웹 개발에 대한 실무 경험을 쌓고 싶습니다.<br><br>
+                </p>
+            </div>
+
+            <div class="board_3">
+                <h1>기업의 인재상</h1>
+                <img src="nexon_ideal.png" width="800px">
+                <p>기업의 인재상으로 보았을 때 <strong>창의, 도전, 다양한 문화</strong>라는 키워드가 있습니다.<br>나중에 이력서를 작성할 때 기업의 인재상을 참고하여 작성하면 도움이 될 것 같아 첨부했습니다.</p>
+            </div>
+
+            <div class="board_4">
+                <h1>채용절차</h1>
+                <img src="nexon_procedure.png" width="800px">
+                <p>
+                    넥슨의 채용절차는 다음과 같으며 기업심사에는 코딩테스트가 있습니다.<br><br>
+                    제가 찾아본 직무에 대한 채용절차는 <strong>서류전형 > 면접전형 > 최종합격</strong> 이므로 따로 코딩테스트가 없었습니다.<br>
+                    하지만 추후 공고가 달라질 수도 있으므로 코딩 테스트를 위한 준비가 필요합니다.</p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        window.onload = function() {
+            var canvas = document.getElementById("myCanvas");
+            var context = canvas.getContext("2d");
+
+            var img = new Image();
+            img.onload = function() {
+                context.drawImage(img, 20, 20, 460, 210);
+            };
+            img.src = "nexon_logo.jpeg";
+        };
+    </script>
+</body>
+</html>

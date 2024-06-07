@@ -1,0 +1,41 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+h1, p{
+    margin:0;
+}
+.gothic-a1-regular {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+ul{
+    list-style:none;
+    text-align: center;
+}
+li{
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+li:hover{
+    border: 10px;
+}
+a{
+    text-decoration-line: none;
+}
+body{
+    background:linear-gradient(35deg, #FF9BD2, #5F87E1)
+}
+.main_text{
+    padding: 150px;
+    position:center;
+}
+.board_2{
+    float:right;
+}
+
+.computer_language{
+    float:left;
+}
